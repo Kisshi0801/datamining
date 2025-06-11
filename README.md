@@ -1,3 +1,9 @@
+file_path = '/content/drive/MyDrive/datamining/Mag6PlusEarthquakes_1900-2013.xlsx'
+df = pd.read_excel(file_path)
+
+# カラム名を確認（例：'Magnitude' がマグニチュード列の場合）
+print(df.columns)
+
 # datamining
 
 import matplotlib.pyplot as plt
